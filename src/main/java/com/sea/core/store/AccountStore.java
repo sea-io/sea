@@ -9,10 +9,6 @@ import org.apache.commons.lang3.ArrayUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-import org.tron.common.utils.Commons;
-import org.tron.core.capsule.AccountCapsule;
-import org.tron.core.db.TronStoreWithRevoking;
-import org.tron.core.db.accountstate.AccountStateCallBackUtils;
 
 @Slf4j(topic = "DB")
 @Component
